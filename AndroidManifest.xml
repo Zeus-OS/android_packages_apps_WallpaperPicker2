@@ -44,14 +44,14 @@
       </intent-filter>
     </activity>
 
-    <activity-alias
+    <!--<activity-alias
         android:name="com.android.wallpaper.picker.CategoryPickerActivity"
         android:targetActivity="com.android.wallpaper.picker.TopLevelPickerActivity"
         android:label="@string/app_name">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
       </intent-filter>
-    </activity-alias>
+    </activity-alias>-->
 
     <activity android:name="com.android.wallpaper.picker.individual.IndividualPickerActivity"
         android:label="@string/app_name"

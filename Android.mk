@@ -125,6 +125,7 @@ endif
 
 LOCAL_PACKAGE_NAME := WallpaperPicker2
 LOCAL_JETIFIER_ENABLED := true
+LOCAL_OVERRIDES_PACKAGES := WallpaperPicker
 
 include $(BUILD_PACKAGE)
 
