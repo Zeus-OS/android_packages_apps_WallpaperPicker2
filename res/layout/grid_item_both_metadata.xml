@@ -25,13 +25,19 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginHorizontal="4dp"
+        android:layout_marginBottom="@dimen/single_metadata_pane_bottom_offset"
+        android:layout_marginEnd="@dimen/single_metadata_pane_horizontal_offset"
+        android:layout_marginLeft="@dimen/single_metadata_pane_horizontal_offset"
+        android:layout_marginRight="@dimen/single_metadata_pane_horizontal_offset"
+        android:layout_marginStart="@dimen/single_metadata_pane_horizontal_offset"
+        android:layout_marginTop="@dimen/single_metadata_pane_vertical_offset"
         app:cardCornerRadius="?android:dialogCornerRadius"
         app:cardElevation="@dimen/single_metadata_card_elevation"
         app:cardMaxElevation="@dimen/single_metadata_card_elevation"
         app:cardPreventCornerOverlap="false"
         app:cardUseCompatPadding="true"
-        app:contentPadding="0dp">
+        app:contentPadding="0dp"
+        app:cardBackgroundColor="@color/color_primary">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -81,8 +87,6 @@
                 android:paddingBottom="@dimen/single_metadata_pane_wallpaper_subtitle_margin_bottom"
                 android:focusable="true">
 
-
-
                 <TextView
                     android:id="@+id/lock_wallpaper_label"
                     android:layout_width="wrap_content"
@@ -94,7 +98,6 @@
                     android:gravity="top"
                     android:text="@string/lock_screen_message"
                     android:textAppearance="@style/HeaderTextAppearance"
-                    android:textColor="@color/currently_set_presentation_mode_text_color"
                     android:maxLines="2"
                     android:ellipsize="end"
                     android:textSize="@dimen/abc_text_size_subhead_material"
@@ -109,7 +112,6 @@
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
-                    android:textColor="@color/currently_set_both_attribution_title_text_color"
                     android:textSize="@dimen/both_metadata_title_text_size"
                     android:textStyle="bold" />
 
@@ -122,7 +124,6 @@
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
-                    android:textColor="@color/currently_set_both_attribution_subtitle_text_color"
                     android:textSize="@dimen/abc_text_size_caption_material" />
 
                 <TextView
@@ -134,7 +135,6 @@
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
-                    android:textColor="@color/currently_set_both_attribution_subtitle_text_color"
                     android:textSize="@dimen/abc_text_size_caption_material" />
 
             </RelativeLayout>
@@ -146,13 +146,19 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_marginHorizontal="4dp"
+        android:layout_marginBottom="@dimen/single_metadata_pane_bottom_offset"
+        android:layout_marginEnd="@dimen/single_metadata_pane_horizontal_offset"
+        android:layout_marginLeft="@dimen/single_metadata_pane_horizontal_offset"
+        android:layout_marginRight="@dimen/single_metadata_pane_horizontal_offset"
+        android:layout_marginStart="@dimen/single_metadata_pane_horizontal_offset"
+        android:layout_marginTop="@dimen/single_metadata_pane_vertical_offset"
         app:cardCornerRadius="?android:dialogCornerRadius"
         app:cardElevation="@dimen/single_metadata_card_elevation"
         app:cardMaxElevation="@dimen/single_metadata_card_elevation"
         app:cardPreventCornerOverlap="false"
         app:cardUseCompatPadding="true"
-        app:contentPadding="0dp">
+        app:contentPadding="0dp"
+        app:cardBackgroundColor="@color/color_primary" >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -246,7 +252,6 @@
                     android:layout_marginTop="@dimen/single_metadata_pane_wallpaper_label_margin_top"
                     android:text="@string/home_screen_message"
                     android:textAppearance="@style/HeaderTextAppearance"
-                    android:textColor="@color/currently_set_presentation_mode_text_color"
                     android:textSize="@dimen/abc_text_size_subhead_material"
                     android:maxLines="2"
                     android:ellipsize="end"
@@ -261,7 +266,6 @@
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
-                    android:textColor="@color/currently_set_both_attribution_title_text_color"
                     android:textSize="@dimen/both_metadata_title_text_size"
                     android:textStyle="bold" />
 
@@ -274,7 +278,6 @@
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
-                    android:textColor="@color/currently_set_both_attribution_subtitle_text_color"
                     android:textSize="@dimen/abc_text_size_caption_material" />
 
                 <TextView
@@ -286,7 +289,6 @@
                     android:ellipsize="end"
                     android:maxLines="1"
                     android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
-                    android:textColor="@color/currently_set_both_attribution_subtitle_text_color"
                     android:textSize="@dimen/abc_text_size_caption_material" />
 
             </RelativeLayout>
